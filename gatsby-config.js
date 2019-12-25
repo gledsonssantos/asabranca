@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `ASABRANCA Serviços Digitais`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A sua Gestão Profissional de Masternodes.`,
+    author: `@gledsonssantos`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
