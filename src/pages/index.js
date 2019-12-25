@@ -16,9 +16,6 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-//
-    <script src="{% static 'js/vendors.min.js' %}"></script>
-    <script src="{% static 'js/jquery.time-to.min.js' %}"></script>
     <script>
         $(document).ready(function() {
             $('#countdown').timeTo({
@@ -27,11 +24,10 @@ const IndexPage = () => (
                 displayCaptions: true,
                 fontSize: 30,
                 captionSize: 14,
-                lang: 'pt'
+                lang: 'es'
             });
         });
     </script>
-//
   </Layout>
 )
 
