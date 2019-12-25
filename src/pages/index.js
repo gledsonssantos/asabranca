@@ -16,18 +16,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <script>
-        $(document).ready(function() {
-            $('#countdown').timeTo({
-                timeTo: new Date(new Date('Mon Jan 06 2020 09:00:00 GMT-0300 (Brasilia Standard Time)')),
-                displayDays: 2,
-                displayCaptions: true,
-                fontSize: 30,
-                captionSize: 14,
-                lang: 'es'
-            });
-        });
-    </script>
+
   </Layout>
 )
 
