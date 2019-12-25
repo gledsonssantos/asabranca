@@ -9,14 +9,16 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Olá masternodeiros!</h1>
-    <p>Bem vindos, este será o site da ASABRANCA, iniciaremos nossas atividades em breve.</p>
-    <p>Estamos trabalhando para que em Janeiro possamos aceitar a gestão de seus Maternodes MarteX.</p>
-    <p>Contatos via Telegram: <a href="https://t.me/gledsonssantos">@gledsonssantos</a>.</p>
+     <p>Bem vindos, este será o site da ASABRANCA, iniciaremos nossas atividades em breve.<br>
+		Estamos trabalhando para que em Janeiro possamos aceitar a gestão de seus Maternodes MarteX.<br>
+		Contatos via Telegram: <a href="https://t.me/gledsonssantos">@gledsonssantos</a>.</p>
     
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-/**   <Link to="/page-2/">Go to page 2</Link> */
+/*   
+ * 		<Link to="/page-2/">Go to page 2</Link>
+ * */
   </Layout>
 )
 
